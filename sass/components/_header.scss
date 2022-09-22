@@ -1,0 +1,111 @@
+#header{
+  background-color: #353535;
+}
+
+.first_coloum p{
+  color: black;
+  background-color: #ffca36;
+  text-align: right;
+  padding: 17px 0;
+  font-size: 14px;
+  font-weight: 400;
+  clip-path: polygon(0 0, 100% 0, 95% 100%, 0% 100%);
+  padding-right: 30px;
+}
+.second_coloum p{
+  color: white;
+  text-align: center;
+  padding: 17px 0;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.third_coloum{
+  background-color: #ffca36;
+  padding: 13.5px 0;
+  clip-path: polygon(5% 0, 100% 0, 100% 100%, 0% 100%);
+  padding-left: 30px;
+  display: flex;
+  cursor: pointer;
+}
+.third_coloum .tc_icon{
+  position: relative;
+  height: 28px;
+  width: 28px;
+  // background-color: red;
+  text-align: center;
+  line-height: 28px;
+  margin: 0 10px;
+}
+
+.tc_icon::after{
+  position: absolute;
+  content: '';
+  height: 1px;
+  width: 0%;
+  top: 0%;
+  left: -10%;
+  background-color: black;
+  transition: all 0.5s ease;
+}
+.tc_icon::before{
+  position: absolute;
+  content: '';
+  height: 1px;
+  width: 0%;
+  bottom: 0%;
+  right: -10%;
+  background-color: black;
+  transition: all 0.5s ease;
+}
+
+.tc_icon:hover::after,
+.tc_icon:hover::before{
+  width: 120%;
+}
+
+.icon_b{
+  position: relative;
+}
+
+.icon_b::after{
+  position: absolute;
+  content: '';
+  height: 0;
+  width: 1px;
+  bottom: -10%;
+  left: 0%;
+  background-color: black;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+}
+.icon_b::before{
+  position: absolute;
+  content: '';
+  height: 0;
+  width: 1px;
+  top: -10%;
+  right: 0%;
+  background-color: black;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+}
+
+.icon_b:hover:before,
+.icon_b:hover::after{
+  height: 120%;
+}
+
+
+
+
+
+
+
+

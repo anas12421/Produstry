@@ -1,0 +1,33 @@
+#home_counter{
+  background: url(../images/main_counter_bg.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 55px 0;
+  position: relative;
+  z-index: 1;
+  margin-top: 100px;
+  color: white;
+  text-align: center;
+}
+
+#home_counter::after{
+  position: absolute;
+  content: '';
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0,0,0,0.7);
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+#home_counter p{
+  font-size: 35px;
+  font-weight: 700;
+}
+#home_counter span{
+  font-size: 18px;
+  font-weight: 400;
+}

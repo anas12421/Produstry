@@ -1,0 +1,93 @@
+.blog_list{
+  margin-top: 59px;
+  position: relative;
+  margin-bottom: 330px;
+}
+
+.blist_ol{
+  padding-top: 115px;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: #f1f1f1;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  height: 400px;
+  width: 90%;
+  transform: translate(-50% , 70%);
+  -webkit-transform: translate(-50% , 70%);
+  -moz-transform: translate(-50% , 70%);
+  -ms-transform: translate(-50% , 70%);
+  -o-transform: translate(-50% , 70%);
+  clip-path: polygon(0 10%, 100% 0, 100% 100%, 0% 100%);
+}
+
+.blist_icon{
+  color: #777777;
+}
+
+.blist_ol h2{
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.blist_icon p{
+  font-size: 13px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+.blist_right p{
+  margin-left: 6px;;
+}
+
+
+.blist_ol p{
+  font-size: 14px;
+  color: #777777;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+.blist_ol a{
+  background-color: #ffca36;
+  color: black;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  margin: 34px 0;
+  font-size: 16px;
+  font-weight: 500;
+  border: 1px solid #ffca36;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+}
+
+.blist_ol a:hover{
+  background-color: #fff;
+}
+
+.blist_btn{
+  padding: 10px;
+  border: 1px solid black;
+  margin-bottom: 100px;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+.blist_btn:hover{
+  background-color: #ffca36;
+  border-color: #ffca36;
+}
+
+.blist_btn a{
+  color: black;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 500;
+}

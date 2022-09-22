@@ -1,0 +1,157 @@
+.blog_details{
+  margin-top: 59px;
+}
+.bd_text{
+  padding-left: 26px;
+}
+
+.bd_text h2{
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 55px;
+}
+
+.bd_icon{
+  margin-top: 18px;
+}
+
+.bd_icon span{
+  font-size: 13px;
+  font-weight: 400;
+  margin-left: 10px;
+}
+
+.bd_text p{
+  font-size: 14px;
+  font-weight: 400;
+  margin: 16px 0;
+  line-height: 24px;
+}
+
+.bd_text .bdt_note{
+  border-left: 3px solid #ffca36;
+  padding: 23px 28px;
+  background-color: #f1f1f1;
+  font-style: italic;
+}
+
+.bdc_head{
+  margin-top: 55px;
+  border-bottom: 1px solid black;
+}
+
+.bdc_head h2{
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.bdc_item{
+  padding: 30px 0;
+}
+
+.bdci_right{
+  padding-left: 25px;
+}
+
+.bdcirh_left h2{
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.bdcirh_right p{
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.bcric_item p{
+  font-size: 14px;
+  font-weight: 400;
+}
+.bcric_item span{
+  font-size: 14px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.bcric_item span:hover{
+  color: #ffca36;
+}
+
+.bdc_item.for_margin{
+  margin-left: 90px;
+  padding-top: 23px;
+}
+.bdc_item.for_border{
+  border-top: 1px solid black;
+}
+
+.d_form_head h3{
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 26px;
+}
+
+.bld_form input{
+  border: none;
+  font-size: 13px;
+  font-weight: 400;
+  text-transform: capitalize;
+  border: 1px solid black;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+}
+
+.bld_form label{
+  font-size: 13px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+.bld_form input:focus{
+  box-shadow: none;
+  border-color: #ffca36;
+}
+.bld_form textarea{
+  border: none;
+  font-size: 13px;
+  font-weight: 400;
+  text-transform: capitalize;
+  border: 1px solid black;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  height: 120px !important;
+}
+
+.bld_form label{
+  font-size: 13px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+.bld_form textarea:focus{
+  box-shadow: none;
+  border-color: #ffca36;
+}
+
+.bld_form input[type = submit]{
+  width: 100%;
+  margin-bottom: 100px;
+  background-color: transparent;
+  border: none;
+  border: 1px solid black;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 4px 0;
+}
+
+.bld_form input[type = submit]:hover{
+  background-color: #ffca36;
+  border-color: #ffca36;
+}

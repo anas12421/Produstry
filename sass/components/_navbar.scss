@@ -1,0 +1,154 @@
+.menu {
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  // background-color: red;
+}
+
+.menu_ex {
+  background-color: white;
+  animation: menu_ex 1s;
+  -webkit-animation: menu_ex 1s;
+  top: 0;
+}
+
+@keyframes menu_ex {
+  0% {
+    top: -100px;
+  }
+
+  100% {
+    top: 0;
+  }
+}
+
+
+.menu_ex img {
+  padding: 5px 0 !important;
+}
+
+.menu img {
+  padding: 22px 0;
+}
+
+.menu ul li {
+  position: relative;
+  margin: 0 10px;
+}
+
+.menu ul li::after {
+  position: absolute;
+  content: '';
+  height: 0%;
+  width: 1px;
+  top: -5%;
+  left: 0;
+  background-color: #ffca36;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+}
+
+.menu ul li::before {
+  position: absolute;
+  content: '';
+  height: 0%;
+  width: 1px;
+  bottom: -5%;
+  right: 0;
+  background-color: #ffca36;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+
+}
+
+.menu ul li:hover::after,
+.menu ul li:hover::before {
+  height: 110%;
+}
+
+
+.menu ul li.active::before,
+.menu ul li.active::after {
+  height: 110%;
+}
+
+.menu ul li:last-child::after,
+.menu ul li:last-child::before {
+  display: none;
+}
+
+.menu ul li a {
+  text-transform: capitalize;
+  font-size: 16px;
+  font-weight: 500;
+  position: relative;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+}
+
+.menu ul li a:hover {
+  color: #ffca36 !important;
+}
+
+.menu ul li a.active {
+  color: #ffca36 !important;
+}
+
+
+
+.menu ul li a::after {
+  position: absolute;
+  content: '';
+  height: 1px;
+  width: 0%;
+  top: 0;
+  left: -5%;
+  background-color: #ffca36;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+
+}
+
+.menu ul li a::before {
+  position: absolute;
+  content: '';
+  height: 1px;
+  width: 0%;
+  bottom: 0;
+  right: -5%;
+  background-color: #ffca36;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+
+}
+
+.menu ul li a:hover::before,
+.menu ul li a:hover::after {
+  width: 110%;
+}
+
+.menu ul li a.active::before,
+.menu ul li a.active::after {
+  width: 110%;
+}
+
+
+.menu ul li:last-child a::after,
+.menu ul li:last-child a::before {
+  display: none;
+}

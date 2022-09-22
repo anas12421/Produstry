@@ -1,0 +1,273 @@
+@media (max-width: 761.98px) {
+  .menu {
+    background-color: white;
+    text-align: center;
+  }
+
+  .menu ul li::after,
+  .menu ul li::before {
+    opacity: 0;
+  }
+
+  .menu ul li a::after,
+  .menu ul li a::before {
+    opacity: 0;
+  }
+
+  .res_btn {
+    border: none;
+  }
+
+  .res_btn:focus {
+    border: none;
+    box-shadow: none;
+  }
+
+  .res_btn i {
+    font-size: 30px;
+  }
+
+  .banner_slider {
+    text-align: center;
+  }
+
+  .first_coloum p {
+    padding-right: 0;
+    text-align: center;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  }
+
+  .third_coloum {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    justify-content: center;
+    padding-left: 0;
+  }
+
+  .service_bottom p {
+    padding: 0;
+  }
+
+  .habout_head {
+    text-align: center;
+  }
+
+  .colorful-tab-wrapper {
+    width: 100%;
+  }
+
+  .colorful-tab-menu {
+    flex-direction: row
+  }
+
+  .hblog_slider {
+    margin-bottom: 230px;
+  }
+
+  .htesti_head h2 {
+    margin-top: 95px;
+  }
+
+  #market {
+
+    margin: 30px 0;
+  }
+
+  .home_marketplace .slick-center .hmarket_img {
+    box-shadow: none;
+  }
+
+  .produstry_left {
+    margin-top: 0;
+  }
+
+  .produstry_right {
+    margin: 0;
+  }
+
+  .prd_head h2 {
+    text-align: center;
+  }
+
+  .prd_item {
+    text-align: left;
+  }
+
+  .mission_left {
+    padding-top: 0px;
+  }
+
+  .mission_head {
+    text-align: center;
+  }
+
+  .mission_head p {
+    padding-top: 20px;
+  }
+
+  .mission_item {
+    padding-top: 30px;
+    padding-left: 20px;
+  }
+
+  .port_img {
+    margin-top: 58px;
+  }
+
+  #contact_list {
+    margin-top: 50px;
+  }
+
+  .clist_item i {
+    margin-top: 0;
+  }
+
+  .clist_text {
+    border: none;
+  }
+
+  .btab_item {
+    justify-content: center;
+  }
+
+  .btab_pages {
+    margin-top: 15px;
+  }
+
+  .blog_list{
+    margin-bottom: 400px;
+  }
+
+  .blist_ol{
+    height: 580px;
+    transform: translate(-50% , 60%);
+    -webkit-transform: translate(-50% , 60%);
+    -moz-transform: translate(-50% , 60%);
+    -ms-transform: translate(-50% , 60%);
+    -o-transform: translate(-50% , 60%);
+}
+
+  .bdc_item.for_margin{
+    margin-left: 40px;
+  }
+
+  .bld_form input[type = submit]{
+    margin-bottom: 0px;
+  }
+
+}
+
+
+@media (min-width:762px) and (max-width: 991.98px) {
+  .menu {
+    background-color: white;
+    /* text-align: center; */
+  }
+
+  .menu ul li::after,
+  .menu ul li::before {
+    opacity: 0;
+  }
+
+  .menu ul li a::after,
+  .menu ul li a::before {
+    opacity: 0;
+  }
+
+  .res_btn {
+    border: none;
+  }
+
+  .res_btn:focus {
+    box-shadow: none;
+  }
+
+  .res_btn i {
+    font-size: 30px;
+  }
+
+
+  .first_coloum p {
+    text-align: center;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  }
+
+  .third_coloum {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    justify-content: center;
+  }
+
+  .habout_head {
+    text-align: center;
+  }
+
+  .colorful-tab-wrapper {
+    width: 100%;
+  }
+
+  .htesti_head h2 {
+    margin-top: 95px;
+  }
+
+
+  .produstry_left {
+    margin-top: 0;
+  }
+
+  .produstry_right {
+    margin: 0;
+  }
+
+  .prd_head h2 {
+    text-align: center;
+  }
+
+  .prd_item {
+    text-align: left;
+  }
+
+  .mission_left {
+    padding-top: 0px;
+  }
+
+  .mission_head h2 {
+    text-align: center;
+  }
+
+  .mission_item {
+    padding-top: 30px;
+    padding-left: 20px;
+  }
+
+  .port_img {
+    margin-top: 58px;
+  }
+
+  #contact_list {
+    margin-top: 50px;
+  }
+
+  .clist_item i {
+    margin-top: 0;
+  }
+
+  .clist_text {
+    border: none;
+  }
+
+  .btab_item {
+    justify-content: center;
+  }
+
+  .btab_pages {
+    margin-top: 15px;
+  }
+
+  .bdc_item.for_margin{
+    margin-left: 40px;
+  }
+
+  .bld_form input[type = submit]{
+    margin-bottom: 0px;
+  }
+  
+}

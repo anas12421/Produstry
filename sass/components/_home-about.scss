@@ -1,0 +1,28 @@
+.habout_left{
+  margin-top: 100px;
+}
+.habout_head{
+  margin-top: 100px;
+}
+.colourful_tab .for_padding{
+  padding-top: 0;
+}
+
+.colourful_tab .tab_btn a{
+  padding: 10px 20px;
+  background-color: #ffca36;
+  border: 1px solid #ffca36;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 500;
+  color: black;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+}
+
+.colourful_tab .tab_btn a:hover{
+  background-color: transparent;
+}

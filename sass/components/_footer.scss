@@ -1,0 +1,131 @@
+footer{
+background-color: #353535;
+}
+.footer_one img{
+  padding-top: 58px;
+}
+
+.footer_one p{
+  font-weight: 400;
+  color: white;
+  font-size: 14px;
+  padding-top: 30px;
+}
+
+.fone_icon a{
+  color: black;
+}
+
+.fone_icon i{
+  margin-top: 36px;
+  height: 35px;
+  width: 35px;
+  background-color: white;
+  font-size: 20px;
+  text-align: center;
+  line-height: 35px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+}
+
+.fone_icon i:hover{
+  background-color: #ffca36;
+  transform: translateY(-5px) scale(1.1);
+  -webkit-transform: translateY(-5px) scale(1.1);
+  -moz-transform: translateY(-5px) scale(1.1);
+  -ms-transform: translateY(-5px) scale(1.1);
+  -o-transform: translateY(-5px) scale(1.1);
+}
+
+.footer_head h2{
+  padding: 80px 0 44px 0;
+  font-size: 18px;
+  font-weight: 400;
+  color: white;
+  text-transform: capitalize;
+}
+
+.ftwo_item{
+  position: relative;
+  font-size: 14px;
+  font-weight: 400;
+  color: white;
+}
+
+.ftwo_item i{
+  height: 35px;
+  width: 35px;
+  background-color: #ffca36;
+  font-size: 20px;
+  text-align: center;
+  line-height: 35px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  color: black;
+  position: absolute;
+  top: 4px;
+}
+
+.ftwo_item p{
+  margin-left: 45px;
+}
+
+.footer_three ul li a{
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: capitalize;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+}
+
+.footer_three ul li a:hover{
+  color: #ffca36;
+  transform: translateX(5px);
+  -webkit-transform: translateX(5px);
+  -moz-transform: translateX(5px);
+  -ms-transform: translateX(5px);
+  -o-transform: translateX(5px);
+}
+
+.f_latest{
+  display: flex;
+}
+
+.fl_right h2{
+  font-size: 14px;
+  color: white;
+  font-weight: 400;
+}
+
+.flr_icon{
+  color: white;
+  font-size: 13px;
+  font-weight: 400;
+  margin-top: 26px;
+}
+.flr_icon p{
+  margin-right: 10px;
+}
+
+.f_latest.for_margin{
+  margin: 27px 0 57px 0;
+}
+
+
+
+

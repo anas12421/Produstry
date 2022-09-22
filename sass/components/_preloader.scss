@@ -1,0 +1,70 @@
+/* preloader part css start */
+.preloader_bg{
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background-color: #999696;
+  z-index: 99999;
+  top: 0;
+  left: 0;
+  // display: none;
+}
+.preloader{
+  border: 0 solid transparent;
+  height: 150px;
+  width: 150px;
+  position: absolute;
+  top: calc(50vh - 75px);
+  left: calc(50vw - 75px);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.preloader::after,
+.preloader::before{
+  position: absolute;
+  content: '';
+  height: inherit;
+  width: inherit;
+  border:3px solid #ffca36;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  animation: preloader 2s linear infinite;
+  -webkit-animation: preloader 2s linear infinite;
+  opacity: 0;
+}
+
+
+.preloader::before{
+  animation-delay: .5s;
+}
+
+@keyframes preloader {
+  0%{
+    transform: scale(0);
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    opacity: 0 ;
+}
+
+50%{
+  opacity: 1;
+}
+100%{
+  opacity: 1;
+  transform: scale(1);
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+}
+}

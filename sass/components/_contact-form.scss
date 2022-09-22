@@ -1,0 +1,77 @@
+
+
+.con_form_head h2{
+
+  margin-top: 95px;
+  text-transform: capitalize;
+}
+
+.con_form_head p{
+  margin-top: 10px;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.con_form_bg{
+  background: url(../images/con-form-bnr.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-top: 55px;
+  margin-bottom: 100px;
+}
+
+.con_form{
+  padding: 40px 35px;
+  background-color: #fdfdfd;
+}
+
+.con_form input{
+  border: none;
+  border: 1px solid #dddddd;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+}
+
+.con_form input:focus{
+  border-color: #dddddd ;
+  outline: none;
+  box-shadow: none;
+}
+
+.con_form label{
+  font-size: 13px;
+  font-weight: 400;
+  color: #777777;
+}
+
+.con_form textarea{
+  border: none;
+  border: 1px solid #dddddd;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  height: 117px !important;
+}
+
+.con_form textarea:focus{
+  border-color: #dddddd ;
+  outline: none;
+  box-shadow: none;
+}
+
+.con_form input[type = submit]{
+  text-transform: uppercase;
+  margin-top: 25px;
+  width: 100%;
+  border: none;
+  background-color: #ffca36;
+  padding: 7px 0;
+  font-size: 16px;
+  font-weight: 500;
+}

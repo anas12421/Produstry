@@ -1,0 +1,96 @@
+.service_head h2{
+  margin-top: 75px;
+}
+.service_head p{
+  margin-top: 10px;
+  font-weight: 400;
+  font-size: 16px;
+}
+.service_main{
+  margin-top: 60px;
+  // background-color: red;
+}
+
+.service_top{
+  height: 105px;
+  width: 105px;
+  text-align: center;
+  line-height: 105px;
+  border: 1px solid black;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  position: relative;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  margin: 0 auto;
+}
+
+
+.service_main:hover .service_top{
+  border-color: #ffca36;
+}
+
+.service_top::after{
+  position: absolute;
+  content: '';
+  height: 50px;
+  width: 1px;
+  background-color: black;
+  bottom: 0;
+  right: -16%;
+  transform: translateY(81%) rotate(-45deg);
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -webkit-transform: translateY(81%) rotate(-45deg);
+  -moz-transform: translateY(81%) rotate(-45deg);
+  -ms-transform: translateY(81%) rotate(-45deg);
+  -o-transform: translateY(81%) rotate(-45deg);
+}
+
+.service_main:hover .service_top::after{
+  background-color: #ffca36;
+}
+.service_top img{
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+}
+
+.service_bottom{
+  margin-top: 68px;
+  padding: 56px 0;
+  border: 1px solid black;
+  text-align: center;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+}
+.service_bottom h3{
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.service_bottom p{
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 22px;
+  padding: 0 10px;
+}
+
+.service_main:hover .service_bottom{
+  border-color: #ffca36;
+  box-shadow: 0px 0px 6px rgb(137, 137, 137);
+}

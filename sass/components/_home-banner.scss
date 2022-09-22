@@ -1,0 +1,290 @@
+#banner {
+  margin-top: 120px;
+  background: url(../images/home_bnr-2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  padding: 230px 0 240px 0;
+  z-index: 1;
+}
+
+#banner::after {
+  position: absolute;
+  content: '';
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.banner_slider h2 {
+  color: white;
+  font-size: 35px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.banner_slider span {
+  color: #ffca36;
+  font-weight: 700;
+}
+
+.banner_slider p {
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+  padding-top: 20px;
+}
+
+.banner_btn {
+  margin-top: 55px;
+}
+
+.banner_btn a {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: white;
+  border: 1px solid white;
+  margin-right: 25px;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+}
+
+.banner_btn a:hover {
+  background-color: #ffca36;
+  border-color: #ffca36;
+}
+
+#banner .next_arrow  {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  color: white;
+  // background-color: red;
+  font-size: 40px;
+  text-align: center;
+  line-height: 70px;
+  top: 50%;
+  right: 50px;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  z-index: 1;
+  cursor: pointer;
+}
+
+.next_arrow i{
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+}
+
+.next_arrow:hover i{
+  color: #ffca36;
+}
+
+.next_i {
+  position: relative;
+}
+
+.next_i::after {
+  position: absolute;
+  height: 120%;
+  width: 1px;
+  top: -10%;
+  left: 0;
+  content: '';
+  background-color: white;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+}
+
+.next_i::before {
+  position: absolute;
+  height: 120%;
+  width: 1px;
+  top: -10%;
+  right: 0;
+  content: '';
+  background-color: white;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+}
+
+.next_i:hover::before,
+.next_i:hover::after{
+  background-color: #ffca36;
+}
+
+.next_c {
+  position: relative;
+}
+
+.next_c::after {
+  position: absolute;
+  height: 1px;
+  width: 120%;
+  top: 0;
+  left: -10%;
+  content: '';
+  background-color: white;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+}
+
+.next_c::before {
+  position: absolute;
+  height: 1px;
+  width: 120%;
+  bottom: 0;
+  left: -10%;
+  content: '';
+  background-color: white;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+}
+
+.next_c:hover::after,
+.next_c:hover::before {
+  background-color: #ffca36;
+}
+
+
+
+
+
+
+
+#banner .prev_arrow  {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  color: white;
+  // background-color: red;
+  font-size: 40px;
+  text-align: center;
+  line-height: 70px;
+  top: 50%;
+  left: 50px;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  z-index: 1;
+  cursor: pointer;
+}
+
+.prev_arrow i{
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+}
+
+.prev_arrow:hover i{
+  color: #ffca36;
+}
+
+.next_o {
+  position: relative;
+}
+
+.next_o::after {
+  position: absolute;
+  height: 120%;
+  width: 1px;
+  top: -10%;
+  left: 0;
+  content: '';
+  background-color: white;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+}
+
+.next_o::before {
+  position: absolute;
+  height: 120%;
+  width: 1px;
+  top: -10%;
+  right: 0;
+  content: '';
+  background-color: white;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+}
+
+.next_o:hover::before,
+.next_o:hover::after{
+  background-color: #ffca36;
+}
+
+.next_n {
+  position: relative;
+}
+
+.next_n::after {
+  position: absolute;
+  height: 1px;
+  width: 120%;
+  top: 0;
+  left: -10%;
+  content: '';
+  background-color: white;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+}
+
+.next_n::before {
+  position: absolute;
+  height: 1px;
+  width: 120%;
+  bottom: 0;
+  left: -10%;
+  content: '';
+  background-color: white;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+}
+
+.next_n:hover::after,
+.next_n:hover::before {
+  background-color: #ffca36;
+}

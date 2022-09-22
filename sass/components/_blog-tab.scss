@@ -1,0 +1,97 @@
+.btab_item {
+  border: 1px solid #dddddd;
+  margin-top: 95px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  cursor: pointer;
+}
+
+.btab_icon i {
+  height: 40px;
+  width: 40px;
+  //background-color: red;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+  color: #555555;
+  border: 1px solid #555555;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  margin-right: 5px;
+}
+
+.btab_icon i:hover {
+  background-color: #ffca36;
+  border-color: #ffca36;
+}
+
+.bsort_by {
+  margin-right: 20px;
+}
+
+.btab_sort span {
+  margin-right: 5px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.btab_sort button {
+  background-color: transparent !important;
+  color: black !important;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  font-size: 14px;
+  font-weight: 400;
+  height: 40px;
+}
+
+.btab_sort button:focus {
+  box-shadow: none;
+}
+
+.btab_sort ul li a {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.btn-check:active+.btn-secondary:focus,
+.btn-check:checked+.btn-secondary:focus,
+.btn-secondary.active:focus,
+.btn-secondary:active:focus,
+.show>.btn-secondary.dropdown-toggle:focus {
+  box-shadow: none;
+}
+
+.btab_pages {
+  font-size: 14px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+}
+.btab_pages p{
+  height: 40px;
+  width: 40px;
+  // background-color: red;
+  line-height: 40px;
+  text-align: center;
+  border: 1px solid black;
+  margin: 0 3px;
+}
+
+.btab_pages p.year{
+  width: 60px;
+}
+
+.btab_pages i{
+  line-height: 40px;
+  font-size: 20px;
+}
